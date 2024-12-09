@@ -1,0 +1,9 @@
+@use 'variables' as *;
+
+a {
+  color: $primary-color;
+
+  &:hover {
+    color: $hover-color;
+  }
+}
