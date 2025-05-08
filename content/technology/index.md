@@ -1,12 +1,12 @@
 ---
 Title: 📠 Teknologier
 Description: Mina Teknologier
-Template: technologies
+Template: technology
 ---
 
 Teknologier
 ==========================
-
+<div class="landingpage">
 <div class="card">
     <div class="card-logo">
         <img src="%assets_url%/img/technology-logos/css.svg" alt="css logo">
@@ -16,7 +16,7 @@ Teknologier
         Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.
     </div>
     <div class="card-footer">
-        <a class="btn" href="technologies/css">
+        <a class="btn" href="technology/css">
             Mer info
         </a>
     </div>
@@ -31,7 +31,7 @@ Teknologier
         HyperText Markup Language (HTML) utgör tillsammans med HyperText Transfer Protocol (HTTP) grunden i webben. Webbsidor skrivs i HTML och skickas sedan över internet med hjälp av HTTP.
     </div>
     <div class="card-footer">
-        <a class="btn" href="technologies/html">
+        <a class="btn" href="technology/html">
             Mer info
         </a>
     </div>
@@ -46,7 +46,7 @@ Teknologier
         JavaScript är ett prototyp-baserat skriptspråk. JavaScript utgör tillsammans med HTML och CSS grunden för webben. JavaScript är dynamiskt, svagt typat och hanterar funktioner som första-klass-objekt.
     </div>
     <div class="card-footer">
-        <a class="btn" href="technologies/javascript">
+        <a class="btn" href="technology/javascript">
             Mer info
         </a>
     </div>
@@ -61,7 +61,7 @@ Teknologier
         PHP är ett populärt skriptspråk som främst används för att skapa webbplatser med dynamiskt innehåll. PHP är det mest använda server-side programmeringsspråk på webben med uppåt 80% av alla webbplatser som använder det.
     </div>
     <div class="card-footer">
-        <a class="btn" href="technologies/php">
+        <a class="btn" href="technology/php">
             Mer info
         </a>
     </div>
@@ -76,7 +76,7 @@ Teknologier
         Python är ett programmeringsspråk som lanserades 1991 av Guido van Rossum. Programmeringsspråket är dynamiskt typad och betecknas som ett generellt programmeringsspråk då det kan tillämpas inom många domäner.
     </div>
     <div class="card-footer">
-        <a class="btn" href="technologies/python">
+        <a class="btn" href="technology/python">
             Mer info
         </a>
     </div>
@@ -91,7 +91,7 @@ Teknologier
         Git är ett distribuerat versionshanteringssystem som skapades 2005 av Linus Torvalds. Git skapades för att hantera ändringar för Linux-kärnan.
     </div>
     <div class="card-footer">
-        <a class="btn" href="technologies/git">
+        <a class="btn" href="technology/git">
             Mer info
         </a>
     </div>
@@ -106,8 +106,9 @@ Teknologier
         SQLite är en filbaserad databas som använder sig av frågespråket Structured Query Language (SQL). Datatyper som man kan använda sig av är begränsade i förhållande till exempelvis MySQL eller PostGreSQL.
     </div>
     <div class="card-footer">
-        <a class="btn" href="technologies/sqlite">
+        <a class="btn" href="technology/sqlite">
             Mer info
         </a>
     </div>
+</div>
 </div>
