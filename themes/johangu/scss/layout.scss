@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+* {
+  color: $color-text;
+  font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html,
+body {
+  background-color: $color-background;
+  height: 100%;
+}
+
+/* Placement */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+

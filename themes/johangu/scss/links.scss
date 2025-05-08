@@ -1,9 +1,11 @@
 @use 'variables' as *;
 
 a {
-  color: $primary-color;
+  color: $color-link;
 
-  &:hover {
-    color: $hover-color;
+  &:hover,
+  &:active {
+    color: $color-link-hover;
   }
 }
+
