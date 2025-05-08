@@ -8,8 +8,13 @@
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
     "style:watch": "sass -w johangu/scss:johangu/css",
-    "style": "sass johangu/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed",
+    "style:watch:min": "sass -w johangu/scss:johangu/css --style compressed --no-source-map ",
+    "style": "npm run style-light && npm run style-dark",
+    "style:min": "npm run style-light:min && npm run style-dark:min",
+    "style-dark": "sass johangu/scss/style-dark.scss johangu/css/style-dark.css --no-source-map",
+    "style-dark:min": "sass johangu/scss/style-dark.scss johangu/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass johangu/scss/style.scss johangu/css/style.css --no-source-map",
+    "style-light:min": "sass johangu/scss/style.scss johangu/css/style.min.css --no-source-map --style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
