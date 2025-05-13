@@ -22,7 +22,7 @@ Resultat
 
 ### Hacker News
 
-<img src="%assets_url%/img/hacker-news.png" alt="Hacker News" style="max-width: 80vw;">
+<img src="%base_url%/image/hacker-news.png?w=80%&save-as=jpg" alt="Hacker News">
 
 #### Färgpalett
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -39,7 +39,7 @@ Hacker News använder ett avskalat designspråk där funktion alltid sätts för
 Typografin är genomgående Verdana, med fallback till sans-serif. Verdana är ett typsnitt utvecklat för att vara tydligt även i låga skärmupplösningar, ett val som gynnar funktion framför visuellt uttryck. Textstorlek, radavstånd och rubriknivåer är mycket lika varandra, vilket gör att sidan saknar tydlig typografisk hierarki. Detta är sannolikt ett medvetet val som speglar Hacker News målgrupp av teknikorienterade användare som föredrar kompakt och läsbar information utan visuella utsvävningar. Att allt presenteras i ett monolitiskt textblock gör också att fokus hålls helt på innehållet.
 ### Dagens Nyheter
 
-<img src="%assets_url%/img/dn.png" alt="Dagens Nyheter" style="max-width: 80vw;">
+<img src="%base_url%/image/dn.png?w=80%&save-as=jpg" alt="Dagens Nyheter" style="max-width: 80vw;">
 
 #### Färgpalett
 
@@ -62,7 +62,7 @@ Typografiskt finns en tydlig hierarki mellan rubriknivåer, ingresser och brödt
 
 ### Kotaku
 
-<img src="%assets_url%/img/kotaku.png" alt="Kotaku" style="max-width: 80vw;">
+<img src="%base_url%/image/kotaku.png?w=80%&save-as=jpg" alt="Kotaku" style="max-width: 80vw;">
 
 #### Färgpalett
 

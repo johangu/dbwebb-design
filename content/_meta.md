@@ -1,5 +1,5 @@
 ---
-Logo: image/johangu.png?w=256&h=256
+Logo: image/johangu.png?w=128&h=128
 Tagline: jogm23s portfolio.
 Social:
     - title: Link till sidans github repo.
