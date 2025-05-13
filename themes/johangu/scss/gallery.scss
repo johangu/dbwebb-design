@@ -1,0 +1,30 @@
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 364px);
+  grid-template-rows: masonry;
+  gap: 1em;
+
+  a {
+    text-decoration: none;
+  }
+
+  picture {
+    width: 364px;
+    height: 364px;
+    overflow: hidden;
+    display: block;
+
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+
+    picture {
+      height: auto;
+    }
+  }
+}
