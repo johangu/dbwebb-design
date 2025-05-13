@@ -21,7 +21,7 @@ Resultat
 -----------------------
 
 <div class="embed-container">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu3ZNfpdm-TClo3PNn7bT0LHR4s1SuxZifyGeSLRxvgM-TJ0ZdzXY8VvKoplH7pVMoE9OTEePK9dTK/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu3ZNfpdm-TClo3PNn7bT0LHR4s1SuxZifyGeSLRxvgM-TJ0ZdzXY8VvKoplH7pVMoE9OTEePK9dTK/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" title="results of the analysis"></iframe>
 </div>
 
 ### Sveriges Television
