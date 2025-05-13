@@ -1,12 +1,15 @@
 @use 'sass:color';
 @use 'variables' as *;
 
+header {
+  width: 100%;
+}
+
 .site-header {
   display: flex;
   padding: 1rem 2rem;
 
-  img {
-    max-width: 128px;
+  .logo img {
     border-radius: 50%;
   }
 

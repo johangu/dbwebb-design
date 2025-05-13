@@ -5,4 +5,7 @@
   color: $color-text;
   padding: clamp(1rem, 5vw, 2rem);
   flex: 1 0 auto;
+  max-width: 1200px;
+  margin-block: 1rem;
+  width: 100%;
 }

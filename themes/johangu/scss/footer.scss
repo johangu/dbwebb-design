@@ -1,6 +1,10 @@
 @use 'sass:color';
 @use 'variables' as *;
 
+footer {
+  width: 100%;
+}
+
 .footer {
   background-color: $color-surface;
   color: $color-text-muted;
