@@ -8,33 +8,34 @@
     text-decoration: none;
   }
 
-  picture {
-    width: 364px;
-    height: 364px;
-    overflow: hidden;
-    display: block;
-    transition: transform 0.3s ease;
-    transform-origin: center center;
-
-    &:hover {
-      transform: scale(1.125);
-      img {
-        border-radius: 1rem;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
-    }
-
-    img {
-      transition: all 0.3s ease;
-      object-fit: scale-down;
-    }
-  }
-
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
 
     picture {
       height: auto;
     }
+  }
+}
+
+.gallery-grid picture {
+  width: 364px;
+  height: 364px;
+  overflow: hidden;
+  display: block;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+
+  img {
+    transition: all 0.3s ease;
+    object-fit: scale-down;
+  }
+}
+
+.gallery-grid picture:hover {
+  transform: scale(1.125);
+
+  img {
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 }
