@@ -2,10 +2,15 @@
 
 a {
   color: $color-link;
+  text-decoration: none;
+  transition: all 0.3s ease-in !important;
 
   &:hover,
   &:active {
+    font-weight: 700;
     color: $color-link-hover;
+    text-decoration: underline;
+    text-decoration-style: wavy;
   }
 }
 

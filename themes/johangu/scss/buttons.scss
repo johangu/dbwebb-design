@@ -13,5 +13,6 @@
 
   &:hover {
     background-color: color.scale($color-primary, $lightness: -10%);
+    text-decoration: none;
   }
 }
